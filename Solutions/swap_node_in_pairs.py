@@ -28,5 +28,7 @@ class solution(object):
 
             nodes.val=next_node_val
             nodes.next.val=curr_node_val
+
+            nodes.next=nodes.next.next
         
         return nodes
