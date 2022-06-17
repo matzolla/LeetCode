@@ -1,6 +1,6 @@
 """We are given a directed graph, and we want to return the list of
 
-it's traversal using DFS"""
+it's traversal using BFS"""
 
 ##Example
 
@@ -16,32 +16,36 @@ it's traversal using DFS"""
 
 ## Output: ['a','b','d','f','c','e']
 
+
+
+
+
 class solution(object):
-    
-    def dfs(self,graph,source):
 
-        ### initialize a stack with source node
+    def BFS(self,graph,source):
+        # Input graph and source node
+        # output: BFS traversal
+        #
 
-        stack=[source]
+        queue= [source]
 
+        #output list
         output=[]
 
-        while stack !=None:
+        while queue!=None:
 
-            ## current node = node in stack
+            ## current node
 
-            curr= stack.pop()
+            curr=queue.pop(0)
 
             output.append(curr)
 
             for nodes in graph[curr]:
 
-                stack.append(nodes)
+                ### nodes in graph
+
+                queue.append(nodes)
+
         
 
         return output
-
-### complexity analysis: 
-
-## Time O(N) with N= len(grapg)
-## Space complexity O(1)
