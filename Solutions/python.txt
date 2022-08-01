@@ -3,3 +3,6 @@ unOrdered set time complecity O(logn) binary tree-like structure
 
 very important:
 https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+
+14 coding patterns:
+https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
