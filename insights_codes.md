@@ -5,3 +5,4 @@
 -  `Best time to buy and sell stocks`: initialize a profit as the difference btwn the selling price and buying price then update by computing the maximum profit, make sure to always minimize the buying prize by updating it as well.
 -  `Contains duplicates`: can just use a set if the len of the set is less than the initial list then it contains a duplicate.
 -  `Product of array except itself`: perform prefix product on the array, then perform suffix product on the array again, at the end multiply both results
+-  `maximun subarray`:
