@@ -15,10 +15,10 @@
 - `Longest Increasing subsequence`: double for loop, check if nums[i]>nums[j] for i in range(len(nums)), and for  j in range(0,i), dp[i]=max(dp[i],dp[j]+1).
 - `robber house`: making decision if we rob the house we make sure not to rob the next house here is an intuition
 
-| reward   | robb=yes     | robb=No| TTA |  Logloss|
-| ------------- | ------------- | --------    | ------ | ------- |
-| `ResNet34`       | 224        | `5`   |        `yes`|  `0.221`  |
-| `ResNet50`         | 224         | `10`   |    `yes`|  `0.134`  |
+| reward   | robb=yes     | robb=No| TTA |
+| ------------- | ------------- | -------- 
+| `ResNet34`       | 224        | `5`   | 
+| `ResNet50`         | 224         | `10`   |
 
 
 
