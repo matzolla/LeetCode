@@ -13,7 +13,7 @@
 #### Dynamic Programming:
 
 - `Longest Increasing subsequence`: double for loop, check if nums[i]>nums[j] for i in range(len(nums)), and for  j in range(0,i), dp[i]=max(dp[i],dp[j]+1).
-- 
+- `Hobber house`: 
 
 
 
