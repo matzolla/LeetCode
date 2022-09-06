@@ -22,4 +22,4 @@
 |  `1`       |   `3`        | `2`       |
 |  `2`       |    `4`       |  `2`      |
 
-- `Unique path`: 
+- `Unique path`: dp[i][j]=dp[i-1][j] + dp[i][j-1]
