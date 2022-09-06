@@ -22,4 +22,5 @@
 |  `1`       |   `3`        | `2`       |
 |  `2`       |    `4`       |  `2`      |
 
-- `Unique path`: dp[i][j]=dp[i-1][j] + dp[i][j-1]
+- `Unique path`: the magic trick dp[i][j]=dp[i-1][j] + dp[i][j-1]
+- `decode ways`: first check for leading `0` and check if this conditions are verify 0<nums<=26 if the conditions are satisfied then dp[i]=1. Also check for 2-length strings and verify if it doesn't contains `0` (cause if it contains `0`) then we have considered it in the initial condition, also check if the `2-length` of the string satisfies the condition `0<nums<=26` and that `no leading zero`.
