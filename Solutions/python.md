@@ -16,3 +16,5 @@ https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Q
 OpenAI:
 
 https://openai.com/interview-guide/#preparation
+
+[6,7,3]10
