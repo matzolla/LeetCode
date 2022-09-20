@@ -34,4 +34,4 @@ class Solution(object):
 ### complexity analysis 
 
 ## time O(logn)
-## space O(n)
+## space O(1)
