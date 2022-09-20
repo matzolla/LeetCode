@@ -54,5 +54,14 @@ class solution(object):
 
 ## space complexity O(m) (but we have many auxilary space complexity)
 
+"""
+residu=[0 0 0 0 0 0 0] #initially
+output=[0 0 0 0 0 0]
+residu=[1 0 1 1 2 1 1]
 
+## after cumulatif frequency
+array=[2,0,4,5,3,4,6]
+residu=[1 1 2 3 5 6 7]
+
+"""
 
