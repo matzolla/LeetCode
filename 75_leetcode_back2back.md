@@ -32,4 +32,4 @@
 
 - `Unique path`: the magic trick dp[i][j]=dp[i-1][j] + dp[i][j-1]
 - `decode ways`: first check for leading `0` and check if this conditions are verify 0<nums<=26 if the conditions are satisfied then dp[i]=1. Also check for 2-length strings and verify if it doesn't contains `0` (cause if it contains `0`) then we have considered it in the initial condition, also check if the `2-length` of the string satisfies the condition `0<nums<=26` and that `no leading zero`.
-- `Climbing stairs:` Fibonnaci series 
+- `Climbing stairs:` Fibonnaci series using the formular f[0]=0 and f[1]=1 and f[i]=f[i-1]+f[i-2] for i starting at 2, return the last element of the array f
