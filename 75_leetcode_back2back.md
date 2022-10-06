@@ -36,3 +36,9 @@
 - `Climbing stairs:` Fibonnaci series using the formular f[0]=0 and f[1]=1 and f[i]=f[i-1]+f[i-2] for i starting at 2, return the last element of the array f
 - `coin changes:` We start by initializing an array with infinity elements inside taking into consideration that the first element of the array has a 0. for all the elements in the array if the coins<= index, then dp[i]=min(dp[i],dp[coins-i]+1)
 - `Combination sum IV:` Almost the same as the `coin change` solutions, with a slight change in that dp[i] += dp[i-coins], with the initial condition that dp[0]=1 (then think about the edge cases as well)
+
+
+
+
+#### Graph and Trees
+- `Time to inform all employees`:
