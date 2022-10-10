@@ -11,6 +11,7 @@
 -  `search in rotated sorted array:` Binary search as usual. Initialize a left and right pointer, compute the middle pointer, if left<middle, check if left<target<middle, the decrement the right pointer (right=middle-1) if yes or increment the left pointer(middle+1) if no. Do same on the other way round (for left>middle).
 -  `Container with most water:` I have one brute force approach with a time complexity of O(n^2) (two for loops while computing the area at each step to get the maximum area). Now using the two pointer approach, I put a left pointer and a right pointer and compare the height of both pointers. the areas can be calulated by multiplying the smallest height with the difference between the indices of the vertical lines and make sure to always keep the maximum area.
 -  `intersection of two arrays II:` I think it's a brute force approach. A double for loop moving across the two arrays. If nums1[idx]=nums2[idy], then this is an intersect. now replace these numbers with something else (may be characters for my case) , to prevent duplicates. nums1[idx]=`x` and nums2[idy]=`y`. Time complexity O(nm) (with `n`=len(nums1) and `m`=len(nums2))
+-  `3closest sum:` I proposed a brute force approach with time complexity `O(n^3)` that i later optimized to `O(n^2)` using sorting and two pointers, but this solution can be optimized better to `O(nlogn)` with binary search (two pointer still) see link: https://leetcode.com/problems/3sum-closest/discuss/1365756/C%2B%2B-Binary-search
 
 
 
