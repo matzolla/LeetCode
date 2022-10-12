@@ -50,3 +50,4 @@
 #### Linked list
 
 - `merging two linked list`: initialize two linkedlist. while list1 and list2 not `None`,compare the values of each list and assign to one of the initialized linkedlist and traverse the lists. Finally if list1 is not none, the next node of the linkedlust is list1 if list2 is not None, the next node of the linkedlist is list2
+- `reverse a linked list`: we initialize a previous node to none then a current node to the head of the list then the next node to curr.next, then curr.next to previous then previous to curr then curr to next (tricky right? :)  )
