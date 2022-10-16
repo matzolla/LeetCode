@@ -13,6 +13,7 @@
 -  `intersection of two arrays II:` I think it's a brute force approach. A double for loop moving across the two arrays. If nums1[idx]=nums2[idy], then this is an intersect. now replace these numbers with something else (may be characters for my case) , to prevent duplicates. nums1[idx]=`x` and nums2[idy]=`y`. Time complexity O(nm) (with `n`=len(nums1) and `m`=len(nums2))
 -  `3closest sum:` I proposed a brute force approach with time complexity `O(n^3)` that i later optimized to `O(n^2)` using sorting and two pointers, but this solution can be optimized better to `O(nlogn)` with binary search (two pointer still) see link: https://leetcode.com/problems/3sum-closest/discuss/1365756/C%2B%2B-Binary-search
 -  `longest palindromic substrings`: https://iq.opengenus.org/longest-palindromic-substring-dp/ 
+-  `Median of two sorted arrays`: strong intuition gotten from https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471/Very-concise-O(log(min(MN)))-iterative-solution-with-detailed-explanation time complexity `O(log(min(n,m)))`
 
 
 
