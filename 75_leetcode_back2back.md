@@ -45,7 +45,8 @@
 
 
 #### Graph and Trees
-- `Time to inform all employees`:
+- `Time to inform all employees`: 
+- `Validate Binary search Tree`: using dfs, append the (root, max, min) in the stack and proceed with dfs traversal. If node.val> Max or < Min return false. Otherwise check if left child exist and append (left, min(max,root.val),min) also check for the right child and append (right, max, max(min, node.val)).
 
 
 
@@ -60,3 +61,4 @@
 
 - `Heap sort link to a good tutorial:` https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/tutorial/
 - `Implemented heapify and max_heap tutorial 1` colab link : https://colab.research.google.com/drive/1t5-1chLNa90tEXip-eXNIaPwY5abmh33?usp=sharing
+
