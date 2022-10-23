@@ -1,5 +1,12 @@
 # Definition for a binary tree node.
 # Sample solution
+"""a simple way:
+         
+         if not p and not q: return True
+         if not p or not q: return False
+         if p.val!=q.val: return False
+         
+         return self.isSameTree(p.right,q.right) and self.isSameTree(p.left,q.left)"""
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
