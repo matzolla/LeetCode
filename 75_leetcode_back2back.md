@@ -65,5 +65,13 @@
 
 #### Merge Sort
 
-- `merge sort tutorial:` https://www.programiz.com/dsa/merge-sort
+- `merge sort tutorial:` https://www.programiz.com/dsa/merge-sort `time complexity O(nlogn)`
+
+#### Count Sort
+
+#### Quick Sort
+
+#### Insertion Sort
+
+#### Bubble Sort
 
