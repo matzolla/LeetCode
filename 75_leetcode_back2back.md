@@ -62,3 +62,8 @@
 - `Heap sort link to a good tutorial:` https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/tutorial/
 - `Implemented heapify and max_heap tutorial 1` colab link : https://colab.research.google.com/drive/1t5-1chLNa90tEXip-eXNIaPwY5abmh33?usp=sharing
 
+
+#### Merge Sort
+
+- `merge sort tutorial:` https://www.programiz.com/dsa/merge-sort
+
