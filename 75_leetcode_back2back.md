@@ -69,6 +69,8 @@
 
 #### Count Sort
 
+- `Count sort:` https://www.programiz.com/dsa/counting-sort
+
 #### Quick Sort
 
 #### Insertion Sort
