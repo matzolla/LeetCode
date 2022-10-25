@@ -76,7 +76,7 @@
 
 #### Insertion Sort
 
-- `solved`
+- `solved:` https://github.com/matzolla/LeetCode/blob/main/Solutions/tri_par_inserition.py
 
 #### Bubble Sort
 
