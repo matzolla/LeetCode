@@ -73,9 +73,10 @@
 
 #### Quick Sort
 
-- `solved`
 
 #### Insertion Sort
+
+- `solved`
 
 #### Bubble Sort
 
