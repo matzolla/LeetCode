@@ -80,5 +80,5 @@
 
 #### Bubble Sort
 
-- `Bubble sort;` https://www.programiz.com/dsa/bubble-sort
+- `Bubble sort:` https://www.programiz.com/dsa/bubble-sort
 
