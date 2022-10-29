@@ -82,3 +82,6 @@
 
 - `Bubble sort:` https://www.programiz.com/dsa/bubble-sort
 
+
+#### Back-tracking Algorithm
+
