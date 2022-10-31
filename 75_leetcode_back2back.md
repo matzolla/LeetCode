@@ -47,6 +47,7 @@
 #### Graph and Trees
 - `Time to inform all employees`: 
 - `Validate Binary search Tree`: using dfs, append the (root, max, min) in the stack and proceed with dfs traversal. If node.val> Max or < Min return false. Otherwise check if left child exist and append (left, min(max,root.val),min) also check for the right child and append (right, max, max(min, node.val)).
+- `Binary Tree Coloring Game`: I will always play inorder to have the maximum number of counts. I have 3 options, counting the left child, the right child and the parent. The best move will be if one count is greater than the sum of the two others.
 
 
 
