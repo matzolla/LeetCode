@@ -87,3 +87,6 @@
 
 #### Back-tracking Algorithm
 
+#### Dealing with monotonic Stack
+
+- `Gotten from leetcode:` https://leetcode.com/problems/online-stock-span/solution/
