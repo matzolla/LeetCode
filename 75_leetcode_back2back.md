@@ -92,3 +92,5 @@
 - `Gotten from leetcode:` https://leetcode.com/problems/online-stock-span/solution/
 
 ## Google Online Assessment
+
+- `Minimum Difference Between Largest and Smallest Value in Three Moves`: Sort the array, remove the last three element,  compute the amplitude, remove the last element and the first 2 , remove the last 2 and the first element, remove the first 3 element.
