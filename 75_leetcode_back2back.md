@@ -96,4 +96,4 @@
 - `Minimum Difference Between Largest and Smallest Value in Three Moves`: Sort the array, remove the last three element,  compute the amplitude, remove the last element and the first 2 , remove the last 2 and the first element, remove the first 3 element.
 - `Way to split string`: We can do a dynamic slidding window, and seperate the string into two strings and always check if the number of unique characters in `string1` and `string2 ` are equal.
 - `Maximum Time`: Not really efficient but we can always check the different conditions where the time doesn't exist example ??:59==23:59 and so on.
--  `Most booked hotel room': in a dictionary we count out the hotels which are booked and get the maximum values using `max(dict.values)` if we have dict as dictionary, then we can have key, values from dict.items() [key for key,value in dict.items if value==max(dict.value)].
+-  `Most booked hotel room`: in a dictionary we count out the hotels which are booked and get the maximum values using `max(dict.values)` if we have dict as dictionary, then we can have key, values from dict.items() [key for key,value in dict.items if value==max(dict.value)].
