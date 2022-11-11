@@ -98,3 +98,4 @@
 - `Maximum Time`: Not really efficient but we can always check the different conditions where the time doesn't exist example ??:59==23:59 and so on.
 -  `Most booked hotel room`: in a dictionary we count out the hotels which are booked and get the maximum values using `max(dict.values)` if we have dict as dictionary, then we can have key, values from dict.items() [key for key,value in dict.items if value==max(dict.value)].
 -  `Minimum Domino tweak`: link [here](https://github.com/matzolla/LeetCode/blob/main/Solutions/Minimum_Domino.py)
+-  `time to typestring`: we start by creating a dictionary, with keys the letters and the values the index, next to it we initialize a list, of len the size of the text, then we initialize the first value as the index of the first character to type. We can therefore compute the other using a 1d dynamic programming task like this dp[idy]= abs(dp[idy-1]- dico[txt[idy]]) then at the end we can sum sum(dp).
