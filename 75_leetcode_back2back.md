@@ -87,6 +87,8 @@
 
 #### Back-tracking Algorithm
 
+- `Combination sum`: check out the link [here](https://github.com/matzolla/LeetCode/blob/main/Solutions/combination_sum_backtrack.py)
+
 #### Dealing with monotonic Stack
 
 - `Gotten from leetcode:` https://leetcode.com/problems/online-stock-span/solution/
