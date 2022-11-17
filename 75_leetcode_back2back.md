@@ -110,4 +110,4 @@
 
 ## Next STEP
 
-- `Simulating Interview:` Building my solution for Google Interviews [here](https://)
+- `Simulating Interview:` Building my solution for Google Interviews [here](https://docs.google.com/document/d/1EGoCCqTVGySa6FEDUhF09MVcyh_jkC7IJFG0x5TpnR8/edit?usp=sharing)
