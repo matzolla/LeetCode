@@ -114,3 +114,4 @@
 ## Next STEP
 
 - `Simulating Interview:` Building my solution for Google Interviews [here](https://docs.google.com/document/d/1EGoCCqTVGySa6FEDUhF09MVcyh_jkC7IJFG0x5TpnR8/edit?usp=sharing)
+- `maximum envelope`: Time complexity of O(n^2 + nlog(n)) can be improved to O(nlog(n)) if we use Longest increasing Subsequence on the height only
