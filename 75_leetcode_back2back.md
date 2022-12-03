@@ -55,14 +55,17 @@
 - `Maximum/ Minimum number of Island`:
 - `Binary Tree Inorder and Preorder traversal`:
 
-### Strings 
+#### Strings 
 - Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`.
 
 #### Linked list
 
 - `merging two linked list`: initialize two linkedlist. while list1 and list2 not `None`,compare the values of each list and assign to one of the initialized linkedlist and traverse the lists. Finally if list1 is not none, the next node of the linkedlust is list1 if list2 is not None, the next node of the linkedlist is list2
 - `reverse a linked list`: we initialize a previous node to none then a current node to the head of the list then the next node to curr.next, then curr.next to previous then previous to curr then curr to next (tricky right? :)  )
-- `Reorder list`:  We used here the stack data structure to store all the nodes if the node indice in the stack is even, then the head.next is that node, otherwise the head.next is the node at the end of the linkedlist then head=head.next. 
+- `Reorder list`:  We used here the stack data structure to store all the nodes if the node indice in the stack is even, then the head.next is that node, otherwise the head.next is the node at the end of the linkedlist then head=head.next.
+
+#### Bit manipulation
+- `pow(x,n)`: a normal for loop with a linear time will not be efficient especially if you do multiply let say 1 a thousand time. hence we used bit manipulation to obtain an exponential time complexity O(logn)
 
 
 #### Heap DSA and heap sort 
