@@ -53,7 +53,7 @@
 - `Binary Tree Coloring Game`: I will always play inorder to have the maximum number of counts. I have 3 options, counting the left child, the right child and the parent. The best move will be if one count is greater than the sum of the two others.
 - `Number of Island`:
 - `Maximum/ Minimum number of Island`:
-- `Binary Tree Inorder and Preorder traversal`:
+- `Binary Tree Inorder and Preorder traversal`: for inorder traversal, traverse the left part of the tree then the right before moving to the root.
 
 #### Strings 
 - Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`.
