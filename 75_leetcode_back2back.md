@@ -54,6 +54,7 @@
 - `Number of Island`:
 - `Maximum/ Minimum number of Island`:
 - `Binary Tree Inorder and Preorder traversal`: for inorder traversal, traverse the left part of the tree then the right before moving to the root.
+- `Lowest common ancestors`: A really tough one, the idea is to do a bfs traversal, while storing the nodes in each level as well as the parents of each ancestor in a dictionary. If the lowest common ancestors is in the level dictionary whose height is the highest. If the number of nodes in this level is one, then just return it. otherwise we look for the parents of each node in the deepest level, and check whether the we fall on a common ancestor node (a node which is common to each node)
 
 #### Strings 
 - Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`.
