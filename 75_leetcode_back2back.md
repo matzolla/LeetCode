@@ -68,6 +68,7 @@
 
 #### Bit manipulation
 - `pow(x,n)`: a normal for loop with a linear time will not be efficient especially if you do multiply let say 1 a thousand time. hence we used bit manipulation to obtain an exponential time complexity O(logn)
+- `count ones`: count the number of ones (something like that :))
 
 
 #### Heap DSA and heap sort 
