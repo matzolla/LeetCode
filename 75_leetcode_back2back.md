@@ -27,7 +27,7 @@
 
 #### Dynamic Programming:
 
-- `Longest Increasing subsequence`: double for loop, check if nums[i]>nums[j] for i in range(len(nums)), and for  j in range(0,i), dp[i]=max(dp[i],dp[j]+1).
+- `Longest Increasing subsequence`: double for loop, check if nums[i]>nums[j] for i in range(len(nums)), and for  j in range(0,i), dp[i]=max(dp[i],dp[j]). Using the double for loop, else we move out of the first loop and increment dp[i]+=1. Then we can return the `max(dp)`.
 - `robber house`: making decision if we rob the house we make sure not to rob the next house here is an intuition
 
 | reward   | robb=yes     | robb=No|
