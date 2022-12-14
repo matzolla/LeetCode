@@ -16,6 +16,7 @@
 -  `Median of two sorted arrays`: strong intuition gotten from https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471/Very-concise-O(log(min(MN)))-iterative-solution-with-detailed-explanation time complexity `O(log(min(n,m)))`
 -  `Find first and last position`: It's obviously done using binary search. But in this case we need to define a function for the last element and first element respectively. For the first element, if the mid==target, then the first element= mid. but now we need to say the righ=mid-1 and keep the iteration to return the start. For the last element, if the mid==target then the last element=mid and low=mid+1, (so as to check if the rightmous element is also the target).
 -  `Insert interval`: The intervals are already sorted so one need to check if the incoming interval does not overlap with the other intervals. Two conditions if newInterval[0]> interval[idx][1] or newInterval[1]< interval[idx][0] then the intervals doesn't overlap. Otherwise, the newInterval=[min(interval1,interval2),max(interval1,interval2)].
+-  `Merge Intervals`: We start by sorting the intervals by first array. We create a list in which we append the first element of the array of intervals. When `for looping` the remaining array, if the start is less than the last element in the previous sequence...then merge the arrays otherwise just append the arrays. (`time complexity of O(nlogn)`)
 
 
 
