@@ -24,7 +24,7 @@
 
 
 #### Stack and Queues:
-- `Implementing a queue using stack:` This is also very interesting
+- `Implementing a queue using stack:` This is also very interesting link [here](https://leetcode.com/problems/implement-queue-using-stacks/solutions/127533/implement-queue-using-stacks/?orderBy=most_relevant)
 
 
 
