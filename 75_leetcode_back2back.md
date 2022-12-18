@@ -107,7 +107,7 @@
 
 #### Dealing with monotonic Stack
 
-- `Gotten from leetcode:` https://leetcode.com/problems/online-stock-span/solution/
+- `Interesting pratical examples:` link [here](https://itnext.io/monotonic-stack-identify-pattern-3da2d491a61e)
 
 ## Google Online Assessment
 
