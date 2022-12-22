@@ -70,6 +70,7 @@
 - `reverse a linked list`: we initialize a previous node to none then a current node to the head of the list then the next node to curr.next, then curr.next to previous then previous to curr then curr to next (tricky right? :)  )
 - `Reorder list`:  We used here the stack data structure to store all the nodes if the node indice in the stack is even, then the head.next is that node, otherwise the head.next is the node at the end of the linkedlist then head=head.next.
 - `odd even linkedlist`: The intuition is to create an even part and an odd part of the linked list let say even =head.next,also evenHead=head.next and odd=head then while even and even.next, the odd.next= even.next (then odd=odd.next) also the even.next= odd.next and even=even.next. now the odd.next=evenHead we can now return the head.
+- `finding the middle of linkedlist:` For that we need a fast and slow pointer where while fast and fast.next we update slow to slow.next and fast to fast.next.next at the end return slow.
 
 #### Bit manipulation
 - `pow(x,n)`: a normal for loop with a linear time will not be efficient especially if you do multiply let say 1 a thousand time. hence we used bit manipulation to obtain an exponential time complexity O(logn)
