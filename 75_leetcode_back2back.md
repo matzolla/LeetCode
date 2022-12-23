@@ -46,6 +46,7 @@
 - `coin changes:` We start by initializing an array with infinity elements inside taking into consideration that the first element of the array has a 0. for all the elements in the array if the coins<= index, then dp[i]=min(dp[i],dp[coins-i]+1)
 - `Combination sum IV:` Almost the same as the `coin change` solutions, with a slight change in that dp[i] += dp[i-coins], with the initial condition that dp[0]=1 (then think about the edge cases as well)
 - `maximum envelopes`: A variant of longest increasing subsequence, with some conditions.
+- `Best time to buy and sell with cooldown` very interesting explanation [here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/75930/very-easy-to-understand-one-pass-o-n-solution-with-no-extra-space/?orderBy=most_relevant).
 
 
 
