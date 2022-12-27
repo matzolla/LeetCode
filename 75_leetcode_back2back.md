@@ -123,7 +123,8 @@
 -  `time to typestring`: we start by creating a dictionary, with keys the letters and the values the index, next to it we initialize a list, of len the size of the text, then we initialize the first value as the index of the first character to type. We can therefore compute the other using a 1d dynamic programming task like this dp[idy]= abs(dp[idy-1]- dico[txt[idy]]) then at the end we can sum sum(dp).
 -  `very important tip on dynamic programming:` link [here](https://leetcode.com/problems/palindromic-substrings/discuss/2062005/Python-Simple-Python-Solution-Using-Two-Different-Approach).
 -  `Online assesment cleared from singapore`: Solution in my brain :) link to questions [here](https://github.com/desmondyeoh/Google-Online-Challenge-solutions)
-
+## Interview Prep Hub Meta
+- Link [here](https://www.metacareers.com/profile/interview_prep_hub)
 ## Next STEP
 
 - `Simulating Interview:` Building my solution for Google Interviews [here](https://docs.google.com/document/d/1EGoCCqTVGySa6FEDUhF09MVcyh_jkC7IJFG0x5TpnR8/edit?usp=sharing)
