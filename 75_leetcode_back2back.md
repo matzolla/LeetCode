@@ -48,6 +48,10 @@
 - `maximum envelopes`: A variant of longest increasing subsequence, with some conditions.
 - `Best time to buy and sell with cooldown` very interesting explanation [here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solutions/75930/very-easy-to-understand-one-pass-o-n-solution-with-no-extra-space/?orderBy=most_relevant).
 
+#### Matrices
+-`Multiplying two matrices:` So far I used the normal equation with a run time complexity of O(n^3) but there's a better approach using divide and conquer algorithm.
+- `Spiral matrix:` Revision
+
 
 
 
