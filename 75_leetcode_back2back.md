@@ -88,6 +88,7 @@
 - `Implemented heapify and max_heap tutorial 1` colab link : https://colab.research.google.com/drive/1t5-1chLNa90tEXip-eXNIaPwY5abmh33?usp=sharing 
 - Implemented a better version of the heap data structure
 - `Top K frequent element:` Start by counting the number of occurence of each element in the array. Then use a priority queue to pop the topK element with respect to the frequency of occurence.
+- `Single threaded CPU:` interesting thought [here](https://leetcode.com/problems/single-threaded-cpu/solutions/2216661/single-threaded-cpu/?orderBy=most_relevant)
 
 
 #### Merge Sort
