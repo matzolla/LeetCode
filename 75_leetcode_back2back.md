@@ -104,6 +104,8 @@
 
 #### Quick Sort
 
+- Checking on cracking the coding interview
+
 
 #### Insertion Sort
 
