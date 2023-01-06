@@ -20,7 +20,8 @@ class solution(object):
         while (nodes!=None) and (nodes.next!= None):
 
             ## collect val
-
+        ## the constraint is at the level of not replacing the value of the node
+        ## but rather the whole node it self.
             curr_node_val=nodes.val
             next_node_val=nodes.next.val
 
