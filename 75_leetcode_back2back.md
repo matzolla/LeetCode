@@ -17,6 +17,8 @@
 -  `Find first and last position`: It's obviously done using binary search. But in this case we need to define a function for the last element and first element respectively. For the first element, if the mid==target, then the first element= mid. but now we need to say the righ=mid-1 and keep the iteration to return the start. For the last element, if the mid==target then the last element=mid and low=mid+1, (so as to check if the rightmous element is also the target).
 -  `Insert interval`: The intervals are already sorted so one need to check if the incoming interval does not overlap with the other intervals. Two conditions if newInterval[0]> interval[idx][1] or newInterval[1]< interval[idx][0] then the intervals doesn't overlap. Otherwise, the newInterval=[min(interval1,interval2),max(interval1,interval2)].
 -  `Merge Intervals`: We start by sorting the intervals by first array. We create a list in which we append the first element of the array of intervals. When `for looping` the remaining array, if the start is less than the last element in the previous sequence...then merge the arrays otherwise just append the arrays. (`time complexity of O(nlogn)`)
+-  `continuous subarray sum:` For now the run time is O(n^2) with a space complexity of O(1).
+-  `contiguous array:` a double for loop while counting the number of zeros and 1 and -1. If they are equal, then consider the length of the subarray.The runtime will be O(n^2). It can be further optimized using a hashmap where we store the index of a sum as we go throught the loop and (while keeping the incrementation) and if we encounter that sum again then we take into consideration the difference between the index of that sum and the actual index where we are.
 
 
 
