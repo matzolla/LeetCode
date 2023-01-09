@@ -35,10 +35,11 @@ class my_heap:
     
 
     def max_heap(self,array):
+        ## time complexity O(n)
 
         for idy in range ((len(array)//2)-1,-1,-1):
 
-            self.heapify(idy)
+            self.heapify(array,idy)
 
     def heapsort(self,array):
         ### initialize the length of the heap
@@ -46,6 +47,7 @@ class my_heap:
         ## decrement the size of the heap by 1 
         ## heapify the updated heap
         ## continue till convergence :)
+        # time complexity O(nlogn)
 
         n= len(array)-1
 
@@ -61,10 +63,12 @@ class my_heap:
     #1) return max 
 
     def get_max(self,array):
+        ## time complexity O(1)
         ## return the max of the heap
         return array[0]
 
     def extract_max(self,array):
+        # time complexity O(logn)
         n=len(array)-1
         max_=array[0]
 
@@ -77,7 +81,7 @@ class my_heap:
         return max_
 
     def insert_key(self,array,idx,value):
-
+        ## time complexity O(logn)
         if value< array[idx]:
             raise "new value is less than current value"
 
@@ -92,6 +96,7 @@ class my_heap:
                 parent=self.parent(parent)
 
     def update_key(self,array,value):
+        ## time complexity O(logn)
 
         n=len(array)
         array[n]=-float('inf')
