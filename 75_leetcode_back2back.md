@@ -67,6 +67,7 @@
 - `Binary Tree Inorder and Preorder traversal`: for inorder traversal, traverse the left part of the tree then the right before moving to the root. Small notice `preorder trasversal is like a simple dfs`
 - `Lowest common ancestors`: A really tough one, the idea is to do a bfs traversal, while storing the nodes in each level as well as the parents of each ancestor in a dictionary. If the lowest common ancestors is in the level dictionary whose height is the highest. If the number of nodes in this level is one, then just return it. otherwise we look for the parents of each node in the deepest level, and check whether the we fall on a common ancestor node (a node which is common to each node)
 -  `Same tree:` We start at each node if the node p and q doesn't exist we return True, if one of the node exist we return False if the values of the two nodes are different return False. Perform a recursion on both the pair of left nodes and pair of right nodes.
+-  Revised some concepts on graphs, (`connected components`,`find_path`,`longest_path`,`max size of component`,`adjacency matrix`,`dfs and bfs trasversal`).
 
 #### Strings 
 - Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`.
