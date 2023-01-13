@@ -62,7 +62,7 @@
 - `Time to inform all employees`: 
 - `Validate Binary search Tree`: using dfs, append the (root, max, min) in the stack and proceed with dfs traversal. If node.val> Max or < Min return false. Otherwise check if left child exist and append (left, min(max,root.val),min) also check for the right child and append (right, max, max(min, node.val)).
 - `Binary Tree Coloring Game`: I will always play inorder to have the maximum number of counts. I have 3 options, counting the left child, the right child and the parent. The best move will be if one count is greater than the sum of the two others.
-- `Number of Island`:
+- `Number of Island`: Solved using dfs or bfs
 - `Maximum/ Minimum number of Island`:
 - `Binary Tree Inorder and Preorder traversal`: for inorder traversal, traverse the left part of the tree then the right before moving to the root. Small notice `preorder trasversal is like a simple dfs`
 - `Lowest common ancestors`: A really tough one, the idea is to do a bfs traversal, while storing the nodes in each level as well as the parents of each ancestor in a dictionary. If the lowest common ancestors is in the level dictionary whose height is the highest. If the number of nodes in this level is one, then just return it. otherwise we look for the parents of each node in the deepest level, and check whether the we fall on a common ancestor node (a node which is common to each node)
