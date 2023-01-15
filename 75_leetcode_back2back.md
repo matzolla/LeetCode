@@ -112,7 +112,7 @@
 
 #### Quick Sort
 
-- Checking on cracking the coding interview
+- `Quick sort:` [coming soon](https://xxxx)
 
 
 #### Insertion Sort
