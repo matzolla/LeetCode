@@ -112,7 +112,7 @@
 
 #### Quick Sort
 
-- `Quick sort:` [coming soon](https://xxxx)
+- `Quick sort:` [coming soon](https://github.com/matzolla/LeetCode/blob/main/Solutions/quick_sort.py)
 
 
 #### Insertion Sort
