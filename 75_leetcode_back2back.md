@@ -71,7 +71,7 @@
 -  `Solve the leetcode 1519:` (atleast bruteforce solution to understand the concept)
 
 #### Strings 
-- Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`.
+- Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`, `.isspace()`
 - In a dictionary dic to get the value of a key, we can say `.get(dic[key],0)`.
 - `longest repeating char replacement:` We initialize a left index `0` and right index `0` next we use a for loop to increment the right index and count the number of occurence of the character in a dictionary. We also define a condition if a window is valid meaning `right-left+1 - max(count)>k` we decrement the count of the left character and increament the left index. then we return the max window size.
 - `lowes lexical string from root:` We start by creating a stack (using dfs) the stack contains (node, string) we traverse the tree while adding the each character down the node....until we get to the leaf (a node is consider a leaf if the left and right child doesn't exist). For this particular nodes we collect the string obtained. then we look for the lexicographically smallest string (for now we use the sorting algorithm). 
