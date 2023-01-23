@@ -20,6 +20,7 @@
 -  `continuous subarray sum:` For now the run time is O(n^2) with a space complexity of O(1).
 -  `contiguous array:` a double for loop while counting the number of zeros and 1 and -1. If they are equal, then consider the length of the subarray.The runtime will be O(n^2). It can be further optimized using a hashmap where we store the index of a sum as we go throught the loop and (while keeping the incrementation) and if we encounter that sum again then we take into consideration the difference between the index of that sum and the actual index where we are. Have a look [here](https://leetcode.com/problems/contiguous-array/solutions/1743341/c-simplest-solution-optimization-from-brute-force-one-pass/?orderBy=most_relevant)
 -  `find kth positive missing value:` we traverse the array an check if the arr[idx]-(idx+1) is greater than `k`. If this is the case, then we return `idx+k`, otherwise we return len(arr)+k and that's it. But theres a better way to improve this model using binary search for a time complexity `O(logn)`
+-  `Array partition:`
 
 
 
@@ -91,6 +92,7 @@
 #### Bit manipulation
 - `pow(x,n)`: a normal for loop with a linear time will not be efficient especially if you do multiply let say 1 a thousand time. hence we used bit manipulation to obtain an exponential time complexity O(logn)
 - `count ones`: count the number of ones (something like that :))
+- `reverse bit:`
 
 
 #### Heap DSA and heap sort 
