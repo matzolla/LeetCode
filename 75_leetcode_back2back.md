@@ -56,6 +56,7 @@
 #### Matrices
 -`Multiplying two matrices:` So far I used the normal equation with a run time complexity of O(n^3) but there's a better approach using divide and conquer algorithm.
 - `Spiral matrix:` Revision
+- `Set matrix to zeros`: The idea is to store the indice of all the row and all the column to be set to zero then using a second for loop perform the zeroing on each of this indexed zero value. Time complexity `O(mn)`
 
 
 
