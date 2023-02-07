@@ -133,6 +133,7 @@
 
 - `Combination sum`: check out the link [here](https://github.com/matzolla/LeetCode/blob/main/Solutions/combination_sum_backtrack.py)
 - `Also did generate parenthesis`:
+- `permutation:` using a simple back-tracking algorithm
 
 #### Dealing with monotonic Stack
 
