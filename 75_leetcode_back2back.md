@@ -135,6 +135,10 @@
 - `Also did generate parenthesis`:
 - `permutation:` using a simple back-tracking algorithm
 
+#### Trie data structure
+
+- `Tutorial on Trie` very interesting tutorial [here](https://www.geeksforgeeks.org/introduction-to-trie-data-structure-and-algorithm-tutorials/)
+
 #### Dealing with monotonic Stack
 
 - `Interesting pratical examples:` link [here](https://itnext.io/monotonic-stack-identify-pattern-3da2d491a61e)
