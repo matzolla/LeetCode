@@ -73,6 +73,7 @@
 -  `Same tree:` We start at each node if the node p and q doesn't exist we return True, if one of the node exist we return False if the values of the two nodes are different return False. Perform a recursion on both the pair of left nodes and pair of right nodes.
 -  Revised some concepts on graphs, (`connected components`,`find_path`,`longest_path`,`max size of component`,`adjacency matrix`,`dfs and bfs trasversal`).
 -  `Solve the leetcode 1519:` (atleast bruteforce solution to understand the concept)
+-  `maximum width of a binary tree:` check out this link [here](https://leetcode.com/problems/maximum-width-of-binary-tree/solutions/726732/Python-10-lines-BFS-explained-with-figure/)
 
 #### Strings 
 - Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`, `.isspace()`
