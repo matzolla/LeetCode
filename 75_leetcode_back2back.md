@@ -75,6 +75,7 @@
 -  Revised some concepts on graphs, (`connected components`,`find_path`,`longest_path`,`max size of component`,`adjacency matrix`,`dfs and bfs trasversal`).
 -  `Solve the leetcode 1519:` (atleast bruteforce solution to understand the concept)
 -  `maximum width of a binary tree:` check out this link [here](https://leetcode.com/problems/maximum-width-of-binary-tree/solutions/726732/Python-10-lines-BFS-explained-with-figure/)
+-  `Minimum spanning trees (MST):` [Here](https://leetcode.com/problems/min-cost-to-connect-all-points/solutions/843930/accepted-python-3-minimum-spanning-tree-kruskal-s-algorithm-union-find/?orderBy=most_relevant)
 
 #### Strings 
 - Don't forget this syntax on strings `.lower()`,`.upper()`,`.isupper()`,`.islower()`, `.isspace()`
