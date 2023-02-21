@@ -22,6 +22,7 @@
 -  `find kth positive missing value:` we traverse the array an check if the arr[idx]-(idx+1) is greater than `k`. If this is the case, then we return `idx+k`, otherwise we return len(arr)+k and that's it. But theres a better way to improve this model using binary search for a time complexity `O(logn)`
 -  `Array partition:`
 -  `don't forget the array.index(function)`: to be noted
+-  `Solved search insert position`: With `O(logn)` time complexity and `O(1)` space.
 
 
 
