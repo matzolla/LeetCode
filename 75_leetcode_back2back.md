@@ -159,8 +159,8 @@
 -  `Online assesment cleared from singapore`: Solution in my brain :) link to questions [here](https://github.com/desmondyeoh/Google-Online-Challenge-solutions)
 ## Interview Prep Hub Meta
 - Link [here](https://www.metacareers.com/profile/interview_prep_hub)
+- Further info coming soon.
 ## Next STEP
-
 - `Simulating Interview:` Building my solution for Google Interviews [here](https://docs.google.com/document/d/1EGoCCqTVGySa6FEDUhF09MVcyh_jkC7IJFG0x5TpnR8/edit?usp=sharing)
 - `maximum envelope`: Time complexity of O(n^2 + nlog(n)) can be improved to O(nlog(n)) if we use Longest increasing Subsequence on the height only
 
