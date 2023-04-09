@@ -32,7 +32,7 @@
 
 #### Stack and Queues:
 - `Implementing a queue using stack:` This is also very interesting link [here](https://leetcode.com/problems/implement-queue-using-stacks/solutions/127533/implement-queue-using-stacks/?orderBy=most_relevant)
-- `Valid parenthesis:`
+- `Valid parenthesis:` Simply append the element in the stack and pop it to verify if it's a valid parenthese.
 
 
 
