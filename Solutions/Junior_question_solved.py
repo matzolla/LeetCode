@@ -1,7 +1,7 @@
-[6 7 4] 10
+"""[6 7 4] 10
  4 4  4 
 [5,3,2] 10
-left_over_wood=0
+left_over_wood=0"""
 
 for length in wood:
    If length<= left_over_wood:
