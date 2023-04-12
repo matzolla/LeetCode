@@ -24,6 +24,7 @@
 -  `don't forget the array.index(function)`: to be noted
 -  `Solved search insert position`: With `O(logn)` time complexity and `O(1)` space.
 -  `Boats to save people`: We start by sorting the array. Then we use the two pointer approach to check whether the sum of two people's weight are less than or equal to the limit weights, if that's the case then we increment the left pointer and decrement the right pointer, we also count the number of boats as `1`. Otherwise we just decrement the right pointer and make sure that the number of boats is also incremented by `1`.
+-  `New transaction (very interesting)`: [here](https://leetcode.com/problems/invalid-transactions/submissions/932554280/)
 
 
 
