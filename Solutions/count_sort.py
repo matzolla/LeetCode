@@ -4,6 +4,15 @@ to sort an array
 
 example [2,0,4,5,3,4,6]
 
+residu= [0,0,0,0,0,0,0]
+
+## second step
+residu=[1,0,1,1,2,1,1]
+
+## third step
+
+residu=[1,1,2,3,5,6,7]
+
 output: [0,2,3,4,4,5,6]
 """
 
