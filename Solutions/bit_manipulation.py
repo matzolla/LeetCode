@@ -21,7 +21,6 @@ class reverse_bit:
 
 rev=reverse_bit(32)
 
-# print(rev.reverse())
 
 
 
