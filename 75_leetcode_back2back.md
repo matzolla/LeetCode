@@ -27,6 +27,7 @@
 -  `New transaction (very interesting)`: [here](https://leetcode.com/problems/invalid-transactions/submissions/932554280/)
 -  `Sign of product`: We loop through the value of the array and we keep multiplying the variable `product` at the end we check the sign.
 -  `Target sum`: An idea is better than nothing, link [here](https://leetcode.com/problems/target-sum/) using backtracking to resolve it. It obviously will have an exponential time comlexity $O\left(n^\alpha\right)$
+-  `Difference of two arrays`: Simply by using sets and the `difference` property of set can help identify elements who are not in the set or who actually are. 
 
 
 
