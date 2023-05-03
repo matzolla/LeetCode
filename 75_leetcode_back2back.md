@@ -26,7 +26,7 @@
 -  `Boats to save people`: We start by sorting the array. Then we use the two pointer approach to check whether the sum of two people's weight are less than or equal to the limit weights, if that's the case then we increment the left pointer and decrement the right pointer, we also count the number of boats as `1`. Otherwise we just decrement the right pointer and make sure that the number of boats is also incremented by `1`.
 -  `New transaction (very interesting)`: [here](https://leetcode.com/problems/invalid-transactions/submissions/932554280/)
 -  `Sign of product`: We loop through the value of the array and we keep multiplying the variable `product` at the end we check the sign.
--  `Target sum`: An idea is better than nothing, link [here](https://leetcode.com/problems/target-sum/) using backtracking to resolve it. It obviously will have an exponential time comlexity $O(n)^$\alpha$$
+-  `Target sum`: An idea is better than nothing, link [here](https://leetcode.com/problems/target-sum/) using backtracking to resolve it. It obviously will have an exponential time comlexity $O(n)^\alpha$
 
 
 
