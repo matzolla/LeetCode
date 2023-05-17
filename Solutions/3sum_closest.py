@@ -7,12 +7,6 @@ class Solution(object):
         brute force of O(n^3) i've optimized to O(n^2)
         but i think can be optimized to o(nlogn)
         [-4,-1,1,2]
-               _  _ _
-        -4--->[-1,1,2]
-        1-sum(-4,1,2)=2
-        1-sum(-1,1,2)=1
-        1-sum(1,-1,2)=1
-        1-sum(2,-1,1)=1
         """
         
         nums.sort()  ## O(nlogn)
