@@ -1,6 +1,7 @@
 """
 here we want to use the idea of connected components 
 to solve problems related to directed cyclic graph
+ok
 """
 
 def connected_components(graph):
