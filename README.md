@@ -15,7 +15,6 @@ def binary_search(array, value):
         if array[mid] < value:
            left= mid+1
         else:
-           right= mid-1
-     
+           right= mid-1     
 ```
 
