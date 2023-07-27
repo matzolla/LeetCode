@@ -1,8 +1,8 @@
 class Solution(object):
     def dailyTemperatures(self, temperatures):
         """
-        :type temperatures: List[int]
-        :rtype: List[int]
+        type temperatures: List[int]
+        rtype: List[int]
         let's use monotonic stacks
         time complexity O(N)
         space complexity O(N)
