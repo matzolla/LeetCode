@@ -8,9 +8,7 @@ Example:
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 
-this can be a better amelioration of brute force but still needs ameliorations but gives a paste on atleast how to 
-
-solve it!!!
+this can be a better amelioration of brute force but still needs ameliorations but gives a paste on atleast how to solve it!!!
 """
 
 class solution(object):
