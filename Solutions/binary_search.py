@@ -5,7 +5,7 @@ Given an array of integers nums which is sorted in ascending order, and an integ
 You must write an algorithm with O(log n) runtime complexity.
 
 """
-## nums = [-1,0,3,5,9,12], target = 9
+# nums = [-1,0,3,5,9,12], target = 9
 
 class Solution(object):
     def search(self, nums, target):
