@@ -3,7 +3,7 @@ Questions and Answers , LeetCode preparatory personal repo
 Back to back coding interview 
 
 ```python
-#example functions binary search
+# example functions binary search
 
 def binary_search(array, value):
     left=0
