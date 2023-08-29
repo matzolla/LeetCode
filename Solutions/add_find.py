@@ -42,9 +42,6 @@ arr.add(3)
 arr.add(1)
 arr.add(2)
 
-print(arr.find(3))
-            
-
 
 
 
