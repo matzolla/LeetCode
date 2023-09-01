@@ -1,8 +1,3 @@
-"""
-Traversing a linked list
-
-"""
-
 class node():
 
     def __init__(self,val):
