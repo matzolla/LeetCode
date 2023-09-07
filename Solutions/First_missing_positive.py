@@ -35,21 +35,3 @@ class solution(object):
 
 
         return output
-
-
-
-        ### Example [1,2,-1,4,5,6]
-
-        ## max_val=6
-
-        ## full_array=[0,1,2,3,4,5,6]
-        ## set(Example).add(0)={-1,0,1,2,4,5,6}
-        ## full_set={0,1,2,3,4,5,6}
-
-        ##diff_set={3}----> missing positive=3
-
-        ## Complexity analysis ####
-        ## Time complexity :  O(n) with n= len(full_set)
-        ## Space complexity : O(1) with an auxilary space of O(len(full_set))
-
-        
