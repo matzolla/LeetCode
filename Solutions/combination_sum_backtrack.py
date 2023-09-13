@@ -31,10 +31,11 @@ class comb():
             self.curr_sum-=self.candidate[idy]
 
 
-# candidate=[2,3,6,7]
-# target=7
-# print(comb(candidate,target).combination_sum())
-
+candidate=[2,3,6,7]
+target=7
+print(comb(candidate,target).combination_sum())
+# you can ignore the coding example below
+# as it is related to heap data structure
 arr=[3,2,4,9,6]
 import heapq
 
