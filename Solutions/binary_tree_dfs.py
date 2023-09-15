@@ -1,6 +1,7 @@
 """
 Here we're creating a dfs algorithm for binary tree
 As usual, we're using a stack for dfs and queue for bfs
+
 """
 
 class Tree(object):
