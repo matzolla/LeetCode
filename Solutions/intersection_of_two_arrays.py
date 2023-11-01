@@ -4,6 +4,8 @@ class Solution(object):
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: List[int]
+
+        we can optimize using sets may be???
         """
         
         ## #i have  brute force approach time complexity O(nm)
