@@ -15,7 +15,6 @@ class Solution(object):
         
         ## The idea is to traverse the tree using either bfs or dfs and append 
         ## the values of the array  time complexity will be O(nlogn)
-        
         ## the hint require us to use the property of bst to optimize. Let's see
         ## using inorder traversal time complexity O(N), space O(N)
         
