@@ -4,21 +4,6 @@ it's traversal using BFS"""
 
 ##Example
 
-#  graph={
-#         a:['c','b'],
-#         b: ['d'],
-#         c:  ['e'],
-#         d:  ['f'],
-#         e:  [],
-#         f:  []
-#        }
-
-
-## Output: ['a','b','d','f','c','e']
-
-
-
-
 
 class solution(object):
 
