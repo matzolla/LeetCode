@@ -4,8 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :type target: int
         :rtype: int
-        # """
-        ## three main conditions
+        """
         ## time complexity O(logn)
         ## space complexity O(1)
         left = 0
