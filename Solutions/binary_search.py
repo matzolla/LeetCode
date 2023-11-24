@@ -30,8 +30,3 @@ class Solution(object):
             else:
                 right=middle-1
         return -1
-
-### complexity analysis 
-
-## time O(logn)
-## space O(1)
