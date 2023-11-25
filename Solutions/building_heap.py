@@ -1,4 +1,7 @@
 class my_heap:
+    """
+    BUILDING A HEAP AND HEAP SORT ALGORITHM
+    """
 
     def __init__(self):
         self.array=None
