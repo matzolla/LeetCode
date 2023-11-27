@@ -89,6 +89,7 @@ class my_heap:
             raise "new value is less than current value"
 
         else:
+            
             array[idx]=value
             parent=self.parent(idx)
             while idx >0 and array[parent]< array[idx]:
