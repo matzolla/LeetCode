@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :type k: int
         :rtype: List[int]
-
         using heap algorithm
         """
 
