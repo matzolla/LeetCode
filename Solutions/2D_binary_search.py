@@ -1,6 +1,6 @@
 def Search(arr_2d,value):
   
-  ## time complexity O(logn + logm)
+  ## time complexity O(logn + logm)=O(log(m*n))
   ## time O(1)
   ## example:
 
