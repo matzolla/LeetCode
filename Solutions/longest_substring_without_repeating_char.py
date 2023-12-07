@@ -2,6 +2,7 @@ class Solution(object):
     def lengthOfLongestSubstring(self, s):
        """
        time complexity O(n)
+       
        """
        left=0
        right=0
