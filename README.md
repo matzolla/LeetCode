@@ -1,7 +1,8 @@
 # LeetCode
 Questions and Answers , LeetCode preparatory personal repo 
 Back to back coding interview  (level medium)
-
+1. $2022$ Interviewed at Google twice (AI residency role and SWE site reliability role) rejected in first round straight!!!
+2. $2023$ Interviewed once at Meta (AI residency). Rejected at final round cause the residency programm closed
 ```python
 # example functions binary search
 
