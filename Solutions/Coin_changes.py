@@ -6,7 +6,7 @@ You may assume that you have an infinite number of each kind of coin."""
 
 ## This is a variant of the Knapsack problem (implemented later)
 
-#link understanding Knapstack : https://medium.com/@fabianterh/how-to-solve-the-knapsack-problem-with-dynamic-programming-eb88c706d3cf
+#  link understanding Knapstack : https://medium.com/@fabianterh/how-to-solve-the-knapsack-problem-with-dynamic-programming-eb88c706d3cf
 
 
 
