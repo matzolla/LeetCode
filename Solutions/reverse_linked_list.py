@@ -36,7 +36,7 @@ class solution(object):
 
         return previous_node      
         
-## the reason why I say previous node because is because the previous node is the last none  zero node
+## the reason why I say previous node  is because the previous node is the last none  zero node
 
 ## complexity analysis
 
