@@ -3,7 +3,7 @@ array=[0.43,0.32,0.32,0.21,0.11,0.56]
 """
 def bucket_sort(array):
   
-  ### initialize buckets:
+  ## initialize buckets:
   
   bucket=[]
   result=[0]*len(array)
