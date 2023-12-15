@@ -6,12 +6,6 @@ class TreeNode(object):
         self.right = right
 class Solution(object):
     def kthSmallest(self, root, k):
-        """
-        :type root: TreeNode
-        :type k: int
-        :rtype: int
-        inorder traversal= []
-        """
         
         ## The idea is to traverse the tree using either bfs or dfs and append 
         ## the values of the array  time complexity will be O(nlogn)
