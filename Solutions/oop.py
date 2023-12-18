@@ -81,7 +81,7 @@ class Euclidean(metric):
 
         return self.square_root(sum_vector)
 
-### Test case
+## Test case
 vector1=[2,3,4]
 vector2=[1,2,2]
 
