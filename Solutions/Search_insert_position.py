@@ -5,8 +5,8 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        ## time complexity O(logn)
-        ## space complexity O(1)
+        # time complexity O(logn)
+        # space complexity O(1)
         left = 0
         right=len(nums)-1
 
