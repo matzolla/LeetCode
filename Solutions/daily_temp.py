@@ -4,8 +4,6 @@ class Solution(object):
         type temperatures: List[int]
         rtype: List[int]
         let's use monotonic stacks
-        time complexity O(N)
-        space complexity O(N)
         """
 
         stack=[]
@@ -21,3 +19,6 @@ class Solution(object):
             stack.append(idx)
         
         return result
+
+# time complexity O(N)
+# space complexity O(N)
