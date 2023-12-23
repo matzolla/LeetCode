@@ -1,4 +1,3 @@
-# Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -41,3 +40,4 @@ class Solution(object):
                 return deepest[0]
 
         #return lowest_ancestor
+# Definition for a binary tree node.
