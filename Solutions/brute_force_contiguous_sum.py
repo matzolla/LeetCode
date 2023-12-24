@@ -7,7 +7,6 @@ An integer x is a multiple of k if there exists an integer n such that x = n * k
 
 ## example ####
 ## nums = [23,2,4,6,7], k = 6 [2,4] forms a contiguous sum cause 2+4=6 and 6%6=0
-##            ---
 
 class solution(object):
 
