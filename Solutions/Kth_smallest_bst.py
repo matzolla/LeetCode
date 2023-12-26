@@ -26,3 +26,4 @@ class Solution(object):
             curr=curr.right
             
         return nodes[k-1]
+# so we can use the bst inorder traversal to other nodes in an increasing order
