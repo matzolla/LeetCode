@@ -6,6 +6,10 @@ for length in wood:
    else;
       “”increment””
    left_over_wood=max(left_over_wood, L-length)
+
+
+
+
 """   example : [6 7 4] 10
                 4 4  4 
                 [5,3,2] 10
