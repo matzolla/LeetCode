@@ -2,6 +2,7 @@ class reverse_bit:
     """
     reversing a binary bit 
     time complexity O(1)
+    
     """
     def __init__(self,n):
         self.n=n
