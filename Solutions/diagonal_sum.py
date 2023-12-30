@@ -3,8 +3,9 @@ class Solution(object):
         """
         :type mat: List[List[int]]
         :rtype: int
-        
         time complexity O(n), space complexity O(1)
+
+        very interesting approach
         """
         result=0
         n=len(mat)
