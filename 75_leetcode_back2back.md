@@ -1,4 +1,4 @@
-## Currated list 75 leetcode questions to save your time 
+## Currated list 75 leetcode questions to save your time updated
 
 ##### Arrays 
 - `Two sums` : If nums-a in set, then return the solution [a,b] else add (a) in the set.
