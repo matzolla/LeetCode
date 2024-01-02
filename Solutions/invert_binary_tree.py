@@ -1,6 +1,7 @@
 # Definition for a binary tree node.
 # Time complexity O(N)
 ## space complexity O(1)
+# using recursion
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
