@@ -20,6 +20,6 @@ class Solution(object):
 
 
 
-## space complexity O(n) with n=len(array)
+# space complexity O(n) with n=len(array)
 
-## time complexity O(n)  with n=len(result)
+# time complexity O(n)  with n=len(result)
