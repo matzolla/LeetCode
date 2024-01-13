@@ -5,7 +5,6 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[List[int]]
         
-        easy approach
         """
         set1=set(nums1)
         set2=set(nums2)
