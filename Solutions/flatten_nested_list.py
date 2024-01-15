@@ -1,7 +1,7 @@
-# flatten nested list
 # the code below is used to flatten nested list
 # for example input =[1,2,[3,[4,5]]]
 # output= [1,2,3,4,5]
+
 def flatten_nested_list(nested_list):
     flattened_list = []
     for item in nested_list:
