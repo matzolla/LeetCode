@@ -8,6 +8,8 @@ class Solution(object):
         action2- has 0 stock do nothing
         action3- has 1 stock sell
         action4- has 1 stock do nothing
+
+        very interesting
         """
         if len(prices)<2: return 0
         
