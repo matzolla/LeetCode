@@ -6,7 +6,6 @@ class Solution(object):
         :rtype: int
         brute force of O(n^3) i've optimized to O(n^2)
         but i think can be optimized to o(nlogn)
-        [-4,-1,1,2]
         """
         
         nums.sort()  ## O(nlogn)
