@@ -1,8 +1,3 @@
-"""
-Here we write an algorithm to check if a graph has path from source node 
-to destination node. We suppose we're in a directed acyclic grpah
-"""
-
 class solution(object):
 
     def haspath(self,graph,src,dst):
