@@ -4,6 +4,7 @@ class Solution(object):
         :type s: str
         :type k: int
         :rtype: int
+        
         Time complexity O(N)
         space complexity O(1)
         """
