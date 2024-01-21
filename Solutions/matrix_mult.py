@@ -2,6 +2,7 @@ class matmultiply:
     """
     time complexity O(n^3)
     space complexity : if dim(A)= NxM and dim(B)= MxK then
+    
     dim(A.B)= NxK 
     
     O(NxK)
