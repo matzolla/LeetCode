@@ -1,4 +1,5 @@
 class node():
+    # time complexity O(n)
     # traversing a linkedlist
     def __init__(self,val):
         self.val=val
