@@ -9,7 +9,6 @@ class Solution(object):
         """
         :type root: TreeNode
         :rtype: List[int]
-        
         Time complexity O(n)
         Space complexity O(n)
         """
