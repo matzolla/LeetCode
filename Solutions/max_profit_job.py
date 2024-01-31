@@ -5,7 +5,6 @@ class Solution(object):
         :type endTime: List[int]
         :type profit: List[int]
         :rtype: int
-        
         time complexity still of O(n^2) despite the dp aspect :), need to be optimize
         """
         array=[]
