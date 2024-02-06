@@ -22,12 +22,6 @@ class Solution(object):
             if curr.left:
                 stack.append((curr.left,min(_max,curr.val),_min))
         return True
-              #   '''
-              #   5
-              #  / \
-              # 4   6
-              #    / \ 
-              #   3   7
-              #   '''
-              # Time complexity O(N)
-             ## space complexity O(h)
+ 
+        # Time complexity O(N)
+        # space complexity O(h)
