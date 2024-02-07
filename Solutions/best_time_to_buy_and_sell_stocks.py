@@ -5,7 +5,6 @@ class Solution(object):
         :rtype: int
         """
         
-
         if len(prices)==1:
             return 0
         buy_price=prices[0]
