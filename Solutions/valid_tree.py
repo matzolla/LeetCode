@@ -1,7 +1,7 @@
 def  adjacency(edges):
         
-        ## runtime complexity O(m+e)
-        ## space complexity O(e) number of nodes
+        # runtime complexity O(m+e)
+        # space complexity O(e) number of nodes
 
         graph={}
         for edge in edges:
