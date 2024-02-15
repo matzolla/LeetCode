@@ -1,7 +1,7 @@
 def Search(arr_2d,value):
   
-  ## time complexity O(logn + logm)=O(log(m*n))
-  ## time O(1)
+  # time complexity O(logn + logm)=O(log(m*n))
+  # time O(1)
 
     Row=len(arr_2d)
     Col= len(arr_2d[0])
