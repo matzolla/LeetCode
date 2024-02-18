@@ -6,9 +6,9 @@ import math
 
 
 def numberOfWays(arr, k):
-   # Write your code here
-    # [1,1,3,6]
-   # for loops
+  # Write your code here
+  # [1,1,3,6]
+  # for loops
   ## time O(N) space O(1)
   sums=[]
   hashset=set()
