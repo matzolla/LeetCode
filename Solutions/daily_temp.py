@@ -4,6 +4,7 @@ class Solution(object):
         type temperatures: List[int]
         rtype: List[int]
         let's use monotonic stacks
+        
         """
 
         stack=[]
