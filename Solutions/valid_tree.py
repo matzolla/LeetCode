@@ -10,7 +10,7 @@ def  adjacency(edges):
              graph[b] =a
 
 
-       Return graph
+       return graph
 
 def  is_valid_Tree(graph, root):
        stack= [root]
@@ -24,4 +24,4 @@ def  is_valid_Tree(graph, root):
              for  neighbour in graph[curr]:
                     stack.append(neighbour)
          if len(Seen) < n : return False
-      Return True
+      return True
