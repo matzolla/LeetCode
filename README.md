@@ -8,6 +8,7 @@ Back to back coding interview  (level `medium` to `hard`)
 Sample codes
 ```python
 # example functions binary search
+# time complexity O(logn)
 
 def binary_search(array, value):
     left=0
