@@ -8,7 +8,8 @@ class solution(object):
 
         # using dfs
 
-        stack=[src] # initialize the stack with a source node
+        stack=[src] 
+        # initialize the stack with a source node
 
         ## current node 
 
