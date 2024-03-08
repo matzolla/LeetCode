@@ -5,7 +5,6 @@ class Solution(object):
         :rtype: int
 
         """
-
         ## we can use countsort
         ## time complexity O(nlogn)
 
