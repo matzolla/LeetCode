@@ -1,8 +1,7 @@
 class solution(object):
 
     def haspath(self,graph,src,dst):
-
-        # graph is an adjacency list of nodes
+        
         # src is the source nodes
         # dst is the destination node
 
