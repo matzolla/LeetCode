@@ -4,7 +4,7 @@ Given an unsorted integer array nums, return the smallest missing positive integ
 You must implement an algorithm that runs in O(n) time and uses constant extra space.
 """
 
-# I simply used sets if necessary and check thw difference betweewn two sets.
+## I simply used sets if necessary and check thw difference betweewn two sets.
 ## If there's no difference, then the next positve value is the max value +1
 
 
