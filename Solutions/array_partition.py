@@ -3,7 +3,6 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
-
         """
         ## we can use countsort
         ## time complexity O(nlogn)
