@@ -6,7 +6,6 @@ class Solution(object):
         :rtype: List[List[int]]
 
         but still have to evaluate the time and space complexity
-        
         """
         set1=set(nums1)
         set2=set(nums2)
