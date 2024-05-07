@@ -3,6 +3,7 @@ class Solution(object):
         """
         :type prices: List[int]
         :rtype: int
+        
         """
         
         buy_price=prices[0]
