@@ -23,5 +23,4 @@ def binary_search(array, value):
         else:
            right= mid-1     
 ```
-
 Will definitely joint one of the `MAANG`
