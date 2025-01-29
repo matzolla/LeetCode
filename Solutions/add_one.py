@@ -22,5 +22,4 @@ class Solution(object):
 
 
 # space complexity O(n) with n=len(array)
-
 # time complexity O(n)  with n=len(result)
