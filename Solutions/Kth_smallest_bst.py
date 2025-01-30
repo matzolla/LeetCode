@@ -1,4 +1,5 @@
 # Definition for a binary tree node.
+# so we can use the bst inorder traversal to other nodes in an increasing order
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -26,4 +27,4 @@ class Solution(object):
             curr=curr.right
             
         return nodes[k-1]
-# so we can use the bst inorder traversal to other nodes in an increasing order
+
