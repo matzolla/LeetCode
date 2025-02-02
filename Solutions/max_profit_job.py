@@ -7,6 +7,7 @@ class Solution(object):
         :rtype: int
         time complexity still of O(n^2) despite the dp aspect :), need to be optimize
         """
+        
         array=[]
         
         for start,end,prof in zip(startTime,endTime,profit):
