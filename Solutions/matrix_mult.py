@@ -4,7 +4,6 @@ class matmultiply:
     space complexity : if dim(A)= NxM and dim(B)= MxK then
     
     dim(A.B)= NxK 
-    
     O(NxK)
     """
     def __init__(self,A,B):
