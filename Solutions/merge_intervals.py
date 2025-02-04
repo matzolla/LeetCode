@@ -6,7 +6,6 @@ class Solution(object):
         """
         ## time complexity O(nlogn)
         ## space complexity O(m) with m=len(results)
-        ## we sort 
 
         intervals.sort(key= lambda i: i[0])
         result=[intervals[0]]
