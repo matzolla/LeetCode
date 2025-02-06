@@ -1,6 +1,7 @@
 def find_missing(arr):
   # time O(N)
   # space O(1)
+  # using set to 'look up' on the data base
   MAX_INT= 2^31-1
   
   seen = set(arr)
