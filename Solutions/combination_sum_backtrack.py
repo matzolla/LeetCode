@@ -34,7 +34,7 @@ class comb():
 candidate=[2,3,6,7]
 target=7
 print(comb(candidate,target).combination_sum())
-#but in this case the time complexity is exponential O(n^alpha)
+# but in this case the time complexity is exponential O(n^alpha)
 # you can ignore the coding example below
 # as it is related to heap data structure
 arr=[3,2,4,9,6]
