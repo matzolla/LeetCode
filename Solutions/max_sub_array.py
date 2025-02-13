@@ -38,5 +38,5 @@ def cross_max(arr,low,high):
     return max(cross_max(arr,low,mid-1),cross_max(arr,mid+1,high),max_sub_array(arr,low,mid,high))
 
 
-# time complexity O(nlogn)
+# Time complexity O(nlogn)
 # space complexity O(1)
