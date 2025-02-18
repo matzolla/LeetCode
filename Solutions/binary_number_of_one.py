@@ -8,5 +8,5 @@ class Solution(object):
         return str(bin(n)).count('1')
 
 
-## time complexity of the bin operation is O(Logn)
-## space complexity O(1)
+### time complexity of the bin operation is O(Logn)
+### space complexity O(1)
