@@ -1,5 +1,5 @@
-# Definition for singly-linked list.
-# time complexity O(N), space complexity O(1)
+## Definition for singly-linked list.
+## time complexity O(N), space complexity O(1)
 class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
