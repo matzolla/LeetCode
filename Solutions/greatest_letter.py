@@ -48,6 +48,4 @@ class Solution(object):
                     
         return char
 
-## I'm proud of this solution, leetcode contest number 298
-
 ## Time complexity O(N) space complexity O(M) M =len(stack)  could be extended to O(1)
