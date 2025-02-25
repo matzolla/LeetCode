@@ -8,7 +8,7 @@ class Solution(object):
         we can optimize using sets may be???
         """
         
-        ## #i have  brute force approach time complexity O(nm)
+        ### i have a  brute force approach time complexity O(nm)
         intersect=[]
         for idx in range(len(nums1)):
             
