@@ -4,7 +4,6 @@ it's traversal using BFS"""
 
 ##Example
 
-
 class solution(object):
 
     def BFS(self,graph,source):
